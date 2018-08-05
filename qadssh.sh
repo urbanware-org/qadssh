@@ -6,6 +6,7 @@
 # Distributed under the MIT License (https://opensource.org/licenses/MIT)
 #
 # GitHub: https://github.com/urbanware-org/qadssh
+# GitLab: https://gitlab.com/urbanware-org/qadssh
 # ============================================================================
 
 version="1.1.0"
