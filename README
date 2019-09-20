@@ -34,7 +34,7 @@ README (qadssh)
         and you need to connect to various systems inside each of the VLANs
         with a certain user.
 
-        You can do that the usual way, e. g.
+        You can do that the usual way, e.g.
 
             $ ssh johndoe@192.168.1.24
             $ ssh foobar@192.168.2.10
