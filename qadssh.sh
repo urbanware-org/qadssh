@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # ============================================================================
 # qadssh - Quick-and-dirty SSH script
@@ -36,4 +36,3 @@ echo "Quick-and-dirty SSH, connecting to $network.$vlan.$host with"\
 ssh $user@$network.$vlan.$host
 
 # EOF
-
