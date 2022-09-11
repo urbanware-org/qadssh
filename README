@@ -1,0 +1,74 @@
+
+README (qadssh)
+
+    Definition
+
+        Simple script to use in combination with Bash aliases for quicker SSH
+        access to remote systems.
+
+    Details
+
+        In order to speed up the SSH login process every time you need to
+        connect to a remote host via SSH, you can use this script in
+        combination with Bash aliases.
+
+        So, to use the script for your network, you may have to edit the code
+        and change the network specific details.
+
+        As the name implies the project is just a quick-and-dirty solution in
+        order to save some time.
+
+        Notice that the script was initially written for class C networks.
+
+        Feel free to modify!
+
+    Example
+
+        Let us assume that there are 4 VLANs inside the network
+
+            VLAN 1: 192.168.1.0/24
+            VLAN 2: 192.168.2.0/24
+            VLAN 3: 192.168.3.0/24
+            VLAN 4: 192.168.4.0/24
+
+        and you need to connect to various systems inside each of the VLANs
+        with a certain user.
+
+        You can do that the usual way, e.g.
+
+            $ ssh johndoe@192.168.1.24
+            $ ssh foobar@192.168.2.10
+            $ ssh someone@192.168.3.98
+            $ ssh hansgruber@192.168.4.60
+
+        or by adding Bash aliases into your '.bashrc' file for those VLANs
+        in combination with qadssh:
+
+            alias 1='/opt/qadssh/qadssh.sh 1'
+            alias 2='/opt/qadssh/qadssh.sh 2'
+            alias 3='/opt/qadssh/qadssh.sh 3'
+            alias 4='/opt/qadssh/qadssh.sh 4'
+
+        After reloading the Bash aliases file you can simply type
+
+            $ 1 24
+
+        to access the system 192.168.1.24 with the current user with whom this
+        script was started. You can also set a default user inside the script
+        which will be used when no username was given.
+
+        You can give a specific name as an argument as follows
+
+            $ 1 28 johndoe
+
+        which would establish a connection as 'johndoe' with 192.168.1.28,
+
+            $ 2 10 foobar
+
+        establishes a connection as 'foobar' with 192.168.2.10 and so on.
+
+    Contact
+
+        Any suggestions, questions, bugs to report or feedback to give? If so,
+        you can find the contact information inside the 'CONTACT' file.
+
