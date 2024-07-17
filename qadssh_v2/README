@@ -1,0 +1,81 @@
+
+README (qadssh)
+
+    Definition
+
+        Enhanced version of QadSSH v1 to use in combination with Bash aliases
+        for quicker SSH access to remote systems.
+
+    Details
+
+        In order to speed up the SSH login process every time you need to
+        connect to a remote host via SSH, you can use this script in
+        combination with Bash aliases.
+
+        As the name implies the project is a more or less quick-and-dirty
+        solution in order to save some time.
+
+        The script itself still needs to be modified and enhanced, as there
+        are no features such as error handling, yet.
+
+        Unlike QadSSH v1, there is no network class limitation.
+
+        Feel free to modify!
+
+    Usage
+
+        QadSSH v2 expects two command-line arguments which are the following:
+
+            - Network prefix (without trailing dot)
+            - Host IP address (without leading dot)
+            - SSH username (optional)
+
+        If no username is given, you can select one via an interactive menu by
+        adding usernames to 'ssh_users.conf'. For example, adding those names
+
+            hansgruber
+            johndoe
+            root
+
+        to that file will give you the following menu (let us assume your
+        current username is "someuser"):
+
+            Please select a user to establish the connection with
+
+            [1] hansgruber
+            [2] johndoe
+            [3] root
+            [0] Current user (someuser)
+
+            or enter the username manually (default is someuser).
+
+        As mentioned above there is no network class limitation. See examples
+        below.
+
+    Examples
+
+        Below are some examples with different network classes in short form
+        for the script itself, without any details about adding Bash aliases.
+
+        It is important how the dots must be set for the addresses. Both of
+        the values must be without a leading and without a trailing dot.
+                         |           |
+                         |           |
+            ./qadssh.sh 10         0.0.2  root
+            ./qadssh.sh 10         0.0.2
+
+            ./qadssh.sh 192.168    1.2    root
+            ./qadssh.sh 192.168    1.2
+
+            ./qadssh.sh 172.16.12  2      root
+            ./qadssh.sh 172.16.12  2
+
+        As mentioned in the usage section, the lines which do not end with a
+        username will show an interactive menu and give you a list of the
+        usernames added to 'ssh_users.conf'.
+
+    Contact
+
+        Any suggestions, questions, bugs to report or feedback to give? If so,
+        you can find the contact information inside the 'CONTACT' file.
+
