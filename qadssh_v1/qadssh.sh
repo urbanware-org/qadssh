@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #
-# qadssh - Quick-and-dirty SSH script
+# QadSSH v1 - Simple quick-and-dirty SSH script
 # Copyright (c) 2022 by Ralf Kilian
 # Distributed under the MIT License (https://opensource.org/licenses/MIT)
 #
