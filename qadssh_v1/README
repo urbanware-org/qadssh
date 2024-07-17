@@ -18,7 +18,10 @@ README (qadssh)
         As the name implies the project is just a quick-and-dirty solution in
         order to save some time.
 
-        Notice that the script was initially written for class C networks.
+        Notice that QadSSH v1 was initially written for class C networks. You
+        may have a look at QadSSH v2 for more features:
+
+            https://github.com/urbanware-org/qadssh/tree/main/qadssh_v2
 
         Feel free to modify!
 
