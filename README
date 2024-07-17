@@ -1,0 +1,8 @@
+
+README (qadssh)
+
+    There are two variants of QadSSH (quick-and-dirty SSH script). See the
+    'README' files inside the corresponding sub-diretcories for details.
+
+        qadssh_v1 - Simple quick-and-dirty SSH script
+        qadssh_v2 - Enhanced quick-and-dirty SSH script
