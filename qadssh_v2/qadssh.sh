@@ -5,8 +5,9 @@
 # Copyright (c) 2024 by Ralf Kilian
 # Distributed under the MIT License (https://opensource.org/licenses/MIT)
 #
-# GitHub: https://github.com/urbanware-org/qadssh
-# GitLab: https://gitlab.com/urbanware-org/qadssh
+# GitHub:   https://github.com/urbanware-org/qadssh
+# GitLab:   https://gitlab.com/urbanware-org/qadssh
+# Codeberg: https://codeberg.org/urbanware-org/qadssh
 #
 
 version="2.0.0"
