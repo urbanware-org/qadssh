@@ -1,8 +1,19 @@
+ .d88888b.                888  .d8888b.   .d8888b.  888    888
+d88P" "Y88b               888 d88P  Y88" d88P  Y88" 888    888
+888     888               888 Y88b.      Y88b.      888    888
+888     888  8888b.  .d888888 "Y888b.    "Y888b.    8888888888
+888     888     "88b d88" 888    "Y88b.     "Y88b.  888    888
+888 Y8b 888 .d888888 888  888      "888       "888  888    888
+Y88b.Y8b88P 888  888 Y88b 888 Y88b  d88" Y88b  d88" 888    888
+ "Y888888"  "Y888888  "Y88888  "Y8888P"  "Y8888P"   888    888
+       Y8b
 
-README (qadssh)
+There are two variants of QadSSH (quick-and-dirty SSH script).
 
-    There are two variants of QadSSH (quick-and-dirty SSH script). See the
-    'README' files inside the corresponding sub-diretcories for details.
+First, OadSSH v1 which is a simple script with some limitations that might
+need some modification to satisfy your needs.
 
-        qadssh_v1 - Simple quick-and-dirty SSH script
-        qadssh_v2 - Enhanced quick-and-dirty SSH script
+Then, there is QadSSH v2 which is an enhanced variant of QadSSH v1 with
+additional features and without the limitations QadSSH v1 has.
+
+For details see the 'README' file inside the corresponding sub-diretcories.
