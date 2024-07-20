@@ -3,8 +3,8 @@ README (qadssh)
 
     Definition
 
-        Simple script to use in combination with Bash aliases for quicker SSH
-        access to remote systems.
+        QadSSH v2 is a simple script to use in combination with Bash aliases
+        for quicker SSH access to remote systems.
 
     Details
 
