@@ -3,8 +3,8 @@ README (qadssh)
 
     Definition
 
-        Enhanced version of QadSSH v1 to use in combination with Bash aliases
-        for quicker SSH access to remote systems.
+        QadSSH v2 is an enhanced version of QadSSH v1 to use in combination
+        with Bash aliases for quicker SSH access to remote systems.
 
     Details
 
@@ -15,7 +15,7 @@ README (qadssh)
         As the name implies the project is a more or less quick-and-dirty
         solution in order to save some time.
 
-        The script itself still needs to be modified and enhanced, as there
+        The script itself still needs to be enhanced and modified, as there
         are no features such as error handling, yet.
 
         Unlike QadSSH v1, there is no network class limitation.
