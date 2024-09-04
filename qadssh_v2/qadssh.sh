@@ -72,7 +72,7 @@ while read line; do
     echo -e "  \e[90m[\e[96m${line_counter}\e[90m]\e[0m \e[93m${line}\e[0m"
 done < $script_config
 
-echo -e "  \e[90m[\e[96m0\e[90m] \e[92mCurrent user\e[0m" \
+echo -e "  \e[90m[\e[96m0\e[90m]\e[0m \e[92mCurrent user\e[0m" \
            "(\e[93m${whoami}\e[0m)"
 echo
 echo -e "or enter the username manually (default is \e[93m${whoami}\e[0m)."
